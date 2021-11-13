@@ -8,7 +8,7 @@ public class ScoreMenager : MonoBehaviour
 
     public static ScoreMenager instance;
     public TextMeshProUGUI text;
-    int score;
+    int score=0;
 
     // Start is called before the first frame update
     void Start()
