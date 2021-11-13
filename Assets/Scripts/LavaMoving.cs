@@ -19,7 +19,7 @@ public class LavaMoving : MonoBehaviour
     private void MoveLava()
     {
         Debug.Log("moving!");
-         transform.position += new Vector3(0, 5 * Time.deltaTime, 0);
+         transform.position += new Vector3(0,6 * Time.deltaTime, 0);
 
     }
     // Move to the target end position.
