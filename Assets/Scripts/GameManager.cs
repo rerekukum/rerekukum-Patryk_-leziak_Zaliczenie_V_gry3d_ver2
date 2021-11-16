@@ -4,8 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public RestartButton GameOverScreen;
     bool isGameEnded = false;
-    public GameObject gameObject;
+   
     public void GameOver()
     {
         if(isGameEnded==false)
@@ -13,6 +14,7 @@ public class GameManager : MonoBehaviour
             isGameEnded=true;
             Debug.Log("game over");
             gameObject.SetActive(true);
+            GameOverScreen.Setup(ScoreMenager.instance.setScore());
             
         }
     }
