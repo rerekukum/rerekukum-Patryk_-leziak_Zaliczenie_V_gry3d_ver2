@@ -55492,7 +55492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929078744}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3406334, y: 0.0018196106, z: 2.039384}
+  m_LocalPosition: {x: -1.3406334, y: 0.01, z: 2.039384}
   m_LocalScale: {x: 0.917856, y: 1.305, z: 1}
   m_Children: []
   m_Father: {fileID: 938080640}
@@ -73818,6 +73818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1214653868}
   - component: {fileID: 1214653867}
+  - component: {fileID: 1214653869}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -73852,6 +73853,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1214653869
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214653866}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 748f29b536e98b346b3f8c268621443e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1217002955
 GameObject:
   m_ObjectHideFlags: 0
@@ -108470,7 +108490,7 @@ Animator:
   m_GameObject: {fileID: 1836267857}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1e04779b74b51e041bb65d8ba68b943a, type: 2}
+  m_Controller: {fileID: 9100000, guid: bcf967f4b53a1ce4a8f112d62d6cf018, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -125510,6 +125530,14 @@ PrefabInstance:
     - target: {fileID: 608900035255688641, guid: 59efbf05603b4814eaf870dbfeef07d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 608900035255688643, guid: 59efbf05603b4814eaf870dbfeef07d2, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1836267862}
+    - target: {fileID: 608900035255688643, guid: 59efbf05603b4814eaf870dbfeef07d2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 608900035255688654, guid: 59efbf05603b4814eaf870dbfeef07d2, type: 3}
       propertyPath: m_Name
